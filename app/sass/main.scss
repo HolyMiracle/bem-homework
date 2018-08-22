@@ -1,0 +1,120 @@
+$primary-color: #2cb6bf;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Open sans';
+	width: 80%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	position: relative;
+	margin: 30px 0;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	img {
+		position: absolute;
+		left: 0;
+		display: block;
+		width: 100px;
+	}
+}
+
+.uf-list {
+	list-style: none;
+	font-size: 12px;
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		border-right: 2px solid $primary-color;
+		padding: 0 10px;
+	}
+	li:nth-child(6) {
+		border: none;
+	}
+	&__search {
+		margin: 0 15px 0 60px;
+	}
+	&__button {
+      box-sizing: border-box;
+		padding: 10px;
+		border: 2px solid $primary-color;
+	}
+}
+
+.uf-main img {
+	width: 100%;
+}
+
+.uf-footer {
+	margin: 20px 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	&__sections {
+		font-size: 14px;
+		h1 {
+			color: $primary-color;
+			font-size: 16px;
+			padding-bottom: 15px;
+		}
+		ul {
+			list-style: none;
+		}
+	}
+	.bold {
+		font-weight: 600;
+   }
+   &__connect {
+      text-align: right;
+      div {
+         padding-bottom: 20px;
+      }
+      .padding {
+         padding: 0 10px;
+      }
+      .text {
+         font-size: 14px;
+      }
+      .facebook-button i {
+         padding-right: 5px;
+         padding-left: 5px;
+      }  
+      .linkedin-button {
+         margin-left: -5px;
+         margin-right: -5px;
+         i {
+         padding-right: 3px;
+         padding-left: 3px;
+         }
+      }
+      .youtube-button i {
+         padding-right: 1px;
+         padding-left: 1px;
+      }
+      .e-mail-button {
+         cursor: pointer;
+         background: white;
+         margin-left: 20px;
+         i {
+            padding-right: 5px;
+            padding-left: 5px;
+         }
+      }
+      input {
+         border: 0;
+         border-bottom: 2px solid $primary-color;
+         padding: 5px;
+      }
+   }
+}
+
