@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: 'Open sans';
+  width: 85%;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+header {
+  position: relative;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  header img {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100px; }
+
+.uf-list {
+  list-style: none;
+  font-size: 12px; }
+  .uf-list li {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid #2cb6bf;
+    padding: 0 10px; }
+  .uf-list li:nth-child(6) {
+    border: none; }
+  .uf-list__search {
+    margin: 0 15px 0 60px; }
+  .uf-list__button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #2cb6bf; }
+
+.uf-main img {
+  width: 100%; }
+
+.uf-footer {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  .uf-footer__sections {
+    font-size: 14px; }
+    .uf-footer__sections h1 {
+      color: #2cb6bf;
+      font-size: 16px;
+      padding-bottom: 15px; }
+    .uf-footer__sections ul {
+      list-style: none; }
+  .uf-footer .bold {
+    font-weight: 600; }
+  .uf-footer__connect {
+    text-align: right; }
+    .uf-footer__connect div {
+      padding-bottom: 20px; }
+    .uf-footer__connect .padding {
+      padding: 0 10px; }
+    .uf-footer__connect .text {
+      font-size: 14px; }
+    .uf-footer__connect .facebook-button i {
+      padding-right: 5px;
+      padding-left: 5px; }
+    .uf-footer__connect .linkedin-button {
+      margin-left: -5px;
+      margin-right: -5px; }
+      .uf-footer__connect .linkedin-button i {
+        padding-right: 3px;
+        padding-left: 3px; }
+    .uf-footer__connect .youtube-button i {
+      padding-right: 1px;
+      padding-left: 1px; }
+    .uf-footer__connect .e-mail-button {
+      cursor: pointer;
+      background: white;
+      margin-left: 20px; }
+      .uf-footer__connect .e-mail-button i {
+        padding-right: 5px;
+        padding-left: 5px; }
+    .uf-footer__connect input {
+      border: 0;
+      border-bottom: 2px solid #2cb6bf;
+      padding: 5px; }
